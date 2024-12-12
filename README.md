@@ -1,14 +1,14 @@
-# Mi Proyecto: Corre y Vuela
+# Mi Proyecto: Corre y Vuela ![Logo de Corre Y Vuela](LogoCorreYVuela.png) 
 
 ## Descripción
 Esta empresa consiste en organizar Eventos Deportivos al aire libre, es decir, organizar carreras de senderismo, running y ciclismo al aire libre con espestáculos audiovisuales
 
-### Rasgos principales de la empresa:
-- Llevar el deporte a el medio ambiente y naturaleza
-- Sostenibilidad 
-- Establecer fechas límite y prioridades
-- Visualizar tareas en un calendario interactivo
-- Recibir notificaciones de tareas pendientes
+### Características Principales
+- Organización de carreras de running, ciclismo y senderismo
+- Sistema de inscripción en línea para carreras y eventos
+- Seguimiento en tiempo real de participantes durante los eventos
+- Seguimiento de los eventos audiovisuales a través de la aplicación
+- Integración con redes sociales para compartir logros, fotos y experiencias
 
 ## Tecnologías utilizadas
 | Frontend | Backend | Base de datos |
@@ -19,26 +19,10 @@ Esta empresa consiste en organizar Eventos Deportivos al aire libre, es decir, o
 ## Nuestro espacio
 [Visita Corre Y Vuela](https://www.instagram.com/correyvuela_eventos/)
 
-# Corre Y Vuela: Plataforma de Eventos Deportivos y Viajes
-
-## Descripción del Proyecto
-
-Corre Y Vuela es una plataforma innovadora que combina la organización de eventos deportivos con servicios de viajes, ofreciendo una experiencia integral para deportistas y aficionados.
-
-### Características Principales
-
-- Organización de carreras de running, ciclismo y senderismo
-- Servicio de reserva de vuelos y alojamiento para eventos deportivos
-- Sistema de inscripción en línea para carreras y eventos
-- Seguimiento en tiempo real de participantes durante los eventos
-- Integración con redes sociales para compartir logros y experiencias
-
 ## Más Información
-
 Para más detalles sobre nuestros servicios y eventos, visita [www.correyvuela.com](https://www.correyvuela.com).
 
-## Logo del Proyecto
-![Logo de Corre Y Vuela](LogoCorreYVuela.png) 
+
 
 ## Próximos Eventos
 
