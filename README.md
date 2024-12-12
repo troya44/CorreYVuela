@@ -27,4 +27,19 @@ Correo: correyvuela.contacto@gmail.com
 Telefono: 642777183
 dirección: Olvera, Cádiz
 
+```python
+# Función para calcular el tiempo estimado de una carrera
+def calcular_tiempo_carrera(distancia_km, velocidad_kmh):
+    tiempo_horas = distancia_km / velocidad_kmh
+    horas = int(tiempo_horas)
+    minutos = int((tiempo_horas - horas) * 60)
+    return f"{horas:02d}:{minutos:02d}"
+
+# Ejemplo de uso
+distancia = 42.2  # Maratón
+velocidad = 12    # 12 km/h
+
+tiempo_estimado = calcular_tiempo_carrera(distancia, velocidad)
+print(f"Tiempo estimado para un maratón a 12 km/h: {tiempo_estimado}")
+
 
