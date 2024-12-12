@@ -10,7 +10,8 @@ Esta empresa consiste en organizar Eventos Deportivos al aire libre, es decir, o
 - Seguimiento en tiempo real de participantes durante los eventos
 - Seguimiento de los eventos audiovisuales a través de la aplicación
 - Integración con redes sociales para compartir logros, fotos y experiencias
-- 
+
+  
 ## Próximos Eventos
 | Evento               | Fecha       | Ubicación         | Distancia   |
 |---------------------|-------------|-------------------|-------------|
@@ -23,9 +24,9 @@ Esta empresa consiste en organizar Eventos Deportivos al aire libre, es decir, o
 [Visita Corre Y Vuela](https://www.instagram.com/correyvuela_eventos/)
 
 ### Contactarnos
-- **Correo: correyvuela.contacto@gmail.com
-- **Telefono: 642777183
-- **Dirección: Olvera, Cádiz
+- Correo: correyvuela.contacto@gmail.com
+- Telefono: 642777183
+- Dirección: Olvera, Cádiz
 
 ```php
 # Funcion para ver las inscripciones que hay en una carrera
