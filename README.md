@@ -27,19 +27,23 @@ Correo: correyvuela.contacto@gmail.com
 Telefono: 642777183
 dirección: Olvera, Cádiz
 
-```python
-# Función para calcular el tiempo estimado de una carrera
-def calcular_tiempo_carrera(distancia_km, velocidad_kmh):
-    tiempo_horas = distancia_km / velocidad_kmh
-    horas = int(tiempo_horas)
-    minutos = int((tiempo_horas - horas) * 60)
-    return f"{horas:02d}:{minutos:02d}"
+```php
+# Funcion para ver las inscripciones que hay en una carrera
+function obtenerInscripcion($id) {
+    $conexion = conexionBD();
 
-# Ejemplo de uso
-distancia = 42.2  # Maratón
-velocidad = 12    # 12 km/h
+    $sql = "SELECT * FROM inscripciones where id = ?";
+    $queryFormateada = $conexion->prepare($sql);
+    $queryFormateada->bind_param('i', $id);
+    $queryFormateada->execute();
+    $resultado = $queryFormateada->get_result();
+    $inscripciones = [];
 
-tiempo_estimado = calcular_tiempo_carrera(distancia, velocidad)
-print(f"Tiempo estimado para un maratón a 12 km/h: {tiempo_estimado}")
+    while ($fila = $resultado->fetch_assoc()) {
+        $inscripciones []  = new Inscripcion($fila['id'], $fila['nombre'], $fila['apellidos'], $fila['dni'],$fila['email'], $fila['telefono'], $fila['fechaNacimiento']);
+    }
+    $conexion->close();
+    return $inscripciones;
+}
 
 
